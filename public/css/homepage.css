@@ -1,0 +1,977 @@
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     background-color: #171d27;
+     color: white;
+}
+
+li a {
+    color: white;
+}
+p{
+    margin-bottom: 8px;
+}
+
+
+body {
+    padding: 14px;
+   margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures the body takes up the full viewport height */
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    box-sizing: border-box;
+    overflow: auto;
+   
+}
+
+.content-engangement{
+    display: flex;
+    gap:8px;
+    font-size: 14px;
+    padding-right: 20px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+img.profile-picture{
+    width: 150px;
+    height: 150px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+
+img.profile-picture-post{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.subtitle {
+    
+    color: #6c757d;
+    font-style: italic;
+    margin-top: 10px;
+    position: relative;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 0.9rem;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);   
+}
+.name {
+    font-size: 35px;
+    font-weight: 500;
+    
+    margin-bottom: 10px;
+}
+
+.main-menu {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    margin-top: 18px;
+}
+
+li a{
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: #ff0090;
+}
+
+img.link-href {
+    width: 20px;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.icons img{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.back {
+    display: flex;
+ /* Memposisikan link di tengah parent div */
+    margin-top: 20px; /* opsional */
+    justify-content: center;
+}
+
+.back a {
+    display: flex;
+    align-items: center; /* Posisikan teks dan gambar secara vertikal sejajar */
+    border: 1px solid white;;
+    padding: 6px 10px;
+    font-size: 14px;
+    color: white;;
+    text-decoration: none;
+    gap: 8px; /* Jarak antara gambar dan teks */
+    border-radius: 4px; /* opsional, tampilan lebih halus */
+}
+
+img.back-btn {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+
+/* DAILY POST CSS */
+
+.body-daily-post {
+    width: 100%;
+    min-height: 100vh; /* Ensures the body takes up the full viewport height */
+    font-optical-sizing: auto;
+    font-style: normal;
+    box-sizing: border-box;
+    overflow: hidden;
+    align-items: baseline;
+    background: #171d27;
+   
+}
+
+
+.main-post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 0;
+}
+
+.main-daily-post {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.main-daily-podcast {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.content-flex-time {
+    display: flex;
+    gap:2px;
+}
+
+.title-time{
+    display: block;
+    align-items: center;
+    gap: 6px;
+}
+.time{
+    font-size: 13px;
+    color: gray;
+}
+
+.dotted {
+    color: gray;
+}
+
+
+.title-content h1 {
+    font-weight: 500;
+}
+
+.content-daily-post{
+    width: 70%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 100px;
+    align-items: baseline;
+    text-align: left;
+}
+
+.dflex-title{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: baseline;
+    position: sticky;
+}
+
+.dflex-title-new{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px;
+    background-color: #ff0090;
+    display: flex; 
+    justify-content: space-between;
+    align-items: baseline;
+    position: sticky;
+}
+
+.img-posts {
+    width: 300px;
+    height: max-content;
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+
+img.img-daily-posts{
+    width: 145px;
+    height: 145px;
+     border: 0.4px solid gray;
+}
+
+
+.title {
+      width: 98%;
+    display: block;
+}
+
+.title-name-time{
+    display: flex;
+    align-items: center;
+}
+
+h5.card-title{
+    margin: 0;
+}
+
+.card-post {
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.card-post-blog {
+    height: 430px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.card-post-project {
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.card-post-podcast {
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.content-wrap {
+    height: 25em;
+
+}
+
+.text-post{
+    font-size: 14px;
+    height: max-content;
+    font-weight: 400;
+    overflow-x: auto;
+    width: 100%;
+}
+
+hr.hr-post{
+    width: 100%;
+    border: 0.2px solid #d5d5d5;
+    margin: 5px 0;
+}
+
+
+.card-body{
+    display: flex;
+    gap: 10px;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem ;
+    padding-top: 0.8rem;
+    padding-bottom: 10px;
+}
+
+.content-daily{
+    width: 100%;
+    display: block;
+}
+
+.dflex-title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+/* PROJECT PAGE STYLE */
+
+
+.projects-title{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.podcast-title{
+    display: flex;
+    gap: 1rem;
+    justify-content:start;
+    align-items: center;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.share{
+    background: none;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 2px;
+    align-items: center;
+    color: white;
+}
+
+span.text-share{
+    font-size: 14px;
+}
+.share a {
+    color: white;;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.podcast-content{
+    display: flex;
+    gap: 20px;
+}
+
+.projects-title-display{
+    align-items: center;
+}
+
+.main-title{
+    display: block;
+}
+
+.job-title {
+    font-size:14px;
+    color: white;
+}
+
+.content-flex-job{
+    display: flex;
+    gap:6px;
+    align-items: center;
+}
+
+img.project-img {
+    width: 150px;
+    height: 150px;
+}
+
+
+.image-project {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.image-podcast {
+    display: flex;
+    justify-content: center;
+
+}
+
+img.podcast-img {
+   width: 100px;
+   height: 100px;
+   border-radius: 10px;
+}
+.img-content-post {
+    display: flex;
+    flex-wrap: wrap;
+    gap:8px;
+}
+
+
+img.project-img-show {
+    width: 100%;
+    height: 300px;
+}
+
+.container-center {
+    width: 100%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+h5.title-project{
+     width: 90%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom:12px;
+    margin-top: 0;
+}
+
+
+h5.title-project-display{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom:12px;
+    margin-top: 0;
+}
+
+p.description{
+    width: 460px;
+    font-size: 14px;
+    margin: 10px 0 10px 0;
+    height: max-content;
+    font-weight: 400;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;        /* Batasi ke 4 baris */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p.description-display{
+    width: 100%;
+    font-size: 14px;
+    margin: 10px 0 10px 0;
+    height: max-content;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p.project_date{
+    font-size:13px;
+    color: gray;
+}
+
+.project-date-display{
+    font-size:13px;
+    color: gray;
+    justify-content: center;
+    margin-bottom: 14px;
+
+}
+
+p.project-title {
+    font-size: 20px;
+    color: white;;
+    margin: 0;
+}
+
+.wrap-content{
+    display: block;
+}
+
+.introduction {
+    height: max-content;
+    margin-bottom: 10px;
+}
+
+p.intro-description{
+    width:100%;
+    font-size: 14px;
+    height: max-content;
+    font-weight: 400;
+}
+
+h4.intro-title{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+.link-project{
+    text-decoration: underline;
+    color: white;;
+} 
+
+.link-project:hover{
+    color: #ff0090;
+}
+
+.project-category span{
+    padding: 3px;
+    font-size: 13px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    border: 1px solid white;;
+    align-content: center;
+}
+
+.project-date {
+    display: flex;
+    font-size: 13px;
+    color: gray;
+}
+
+.project-category{
+    width: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap:8px;
+    margin-bottom: 10px;
+}
+
+.content-flex-center{
+    width: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap:8px;
+    margin-bottom: 10px;
+}
+
+
+img.github-link-projects{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-content: center;
+}
+
+/* END */
+
+/* SHAIRNG BOOKS CSS */
+
+.center-content {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.sharing-books-main {
+    overflow: auto;
+}
+
+img.img-books {
+    width: 300px;
+    height: 500px;
+}
+
+p.opinion {
+    width: 50em;
+    font-size:14px;
+}
+
+span.opinion {
+    font-weight: 800;
+}
+
+
+p.tools_software{
+    margin: 4px 0 0 0 ;
+    font-size: 14px;
+
+}
+
+/* END */
+
+/* WORKING EXPERIENCE CSS */
+
+.company-name {
+    display: flex;
+    gap:10px;
+    height: max-content;
+}
+
+.company-name h5{
+    font-weight: 500;
+    margin: 0;
+}
+
+.title-company-name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: max-content;
+    align-items: center;
+    padding-right: 40px;
+    margin-bottom: 20px;
+
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ff0090;
+    display: flex;
+    justify-content: center;
+}
+
+.dot_now {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #a0a0a0;
+    display: flex;
+    justify-content: center;
+}
+
+.dot-content {
+    display: flex;
+    justify-content: center;
+}
+
+.vertical-line{
+    width: 2px;
+    margin-left: 10px;
+    background-color: rgb(232, 232, 232);
+    height: max-content;
+    align-items: center;
+    position: sticky;
+}
+
+.vertical-list {
+    display: block;
+    
+}
+
+p.jobdesc-p {
+    font-size: 14px;
+}
+
+.jobdesc-content {
+    margin-left: 20px;
+    height: max-content;
+}
+
+
+.job-desc {
+    width: 95%;
+    height: max-content;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.title-jobdesc {
+    width: max-content;
+    font-size: 14px;
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+.title-achievement {
+     margin-left: 20px;
+      font-size: 14px;
+    text-decoration: underline;
+}
+p.date {
+    width: 50px;
+    font-size: 14px;
+    color: gray;
+}
+
+.menu-list li {
+    list-style: none;
+}
+
+ul {
+    line-height: 90%;
+    list-style-type: none;
+}
+
+li {
+    width: 100%;
+    font-size: 14px;
+    align-items: center;
+    list-style-type: disc;
+}
+
+.main-title-work-experience {
+    width: max-content;
+    display: flex;
+    gap:6px;
+    padding: 10px;
+    height: max-content;
+    border-radius: 10px;
+    
+}
+
+.list-jobdesc {
+    height: max-content;
+}
+
+span.industry {
+    padding:3px;
+    border: 1px solid white;;
+    border-radius: 5px;
+    font-size :14px;
+}
+
+.alert {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: rgb(255, 234, 208);
+    color: white;;
+}
+
+.main-menu .p {
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* END */
+
+.typewriter-animation {
+    width: 20px;
+    animation: 
+      typewriter 0.5s steps(50) 1s 1 normal both, 
+      blinkingCursor 500ms steps(50) infinite normal;
+  }
+  @keyframes typewriter {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  @keyframes blinkingCursor{
+    from { border-right-color: rgba(255,255,255,.75); }
+    to { border-right-color: transparent; }
+  }
+/* Responsive styles */
+
+
+@media only screen and (max-width: 800px) {
+
+    html{
+        overflow: auto;
+    }
+    body{
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+
+    .body-daily {
+        width: 100%;
+    }
+    .open-player-btn{
+        font-size: 14px;
+    }
+
+    .main-daily-podcast {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+    }
+
+    .main-menu .p {
+    width: 100%;
+     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+
+    .content-daily-post{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: baseline;
+    text-align: left;
+    }
+
+    .text-post{
+    font-size: 14px;
+    margin: 8px 0 10px 0;
+    height: max-content;
+    font-weight: 400;
+    overflow: auto;
+    }
+
+   img.img-daily-posts{
+    width: 138px;
+    height: 145px;
+     border: 0.4px solid gray;
+    }
+    
+    .title-content h1 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+        
+
+   h5.card-title {
+    font-size: 14px;
+    font-weight: 700;
+   }
+
+
+   
+
+    img.project-img {
+        width: 300px;
+        height: 200px;
+
+    }
+
+    img.project-img-show {
+        width: 100%;
+    }
+
+  
+
+    h5.title-project{
+        width: 100%;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom:10px;
+    }
+    
+    p.description{
+        width: 100%;
+        font-size: 13px;
+        margin: 8px 0 10px 0;
+        height: max-content;
+        font-weight: 400;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;        /* Batasi ke 4 baris */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .projects-title{
+        padding: 5px;
+
+    }
+
+    .category span{
+        padding: 3px;
+        font-size: 11px;
+        border-radius: 5px;
+        border: 1px solid white;;
+    }
+
+    p.intro-description{
+        width: 100%;
+        font-size: 14px;
+        height: max-content;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .dotted{
+        display: none;
+    }
+
+   .card-post-blog {
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 20px;
+   }
+
+   .card-post {
+    height: 550px;
+    margin-bottom: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+   }
+
+   .card-post-project {
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+   }
+
+.card-post-podcast {
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+   }
+
+
+   img.img-books {
+    width:200px;
+    height: 200px;
+   }
+
+   p.opinion {
+    width:100%;
+    font-size: 13px;
+   }
+
+   .content-center-text{
+        display: flex;
+        flex-wrap: nowrap;
+   }
+
+   .profile-name-content h1 {
+        font-size: 25px;
+        
+   }
+
+   .profile-name-content p {
+        font-size: 13px;
+        width: 200px;
+        display: none;
+   }
+
+   .profile-image img{
+    width: 90px;
+    height: 90px;
+   }
+   
+}
+
+

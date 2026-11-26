@@ -1,0 +1,36 @@
+# Node modules (jika ada frontend)
+node_modules
+
+# Folder vendor (install di container)
+vendor
+
+# Git files
+.git
+.gitignore
+
+# Environment file, jangan ikutkan ke image
+.env
+
+# Docker compose files
+docker-compose.yml
+docker-compose.override.yml
+
+# File dockerignore sendiri
+.dockerignore
+
+# IDE/editor cache
+.idea
+.vscode
+
+# Log dan cache Laravel runtime
+storage/logs
+storage/framework/cache
+storage/framework/sessions
+storage/framework/views
+
+# Jangan ignore public/storage dan storage/app/public supaya symlink bisa dibuat
+# Jadi tidak dimasukkan ke dockerignore
+
+# Jika ada file lock dari package manager
+package-lock.json
+yarn.lock
